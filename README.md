@@ -13,7 +13,7 @@
 ## Team Members
 - Mark Hirschenberger
 - Katie Schuman
-- Jackson Yagi
+- Jackson Yaggi
 
 
 ## Data Sets 
