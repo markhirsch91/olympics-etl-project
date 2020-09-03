@@ -32,7 +32,7 @@ Medal TEXT
 CREATE TABLE UFO_sightings (
 Date_time Datetime,
 City TEXT,
-state/province TEXT,
+state_province TEXT,
 CountryUFO_shape TEXT,
 length_of_encounter_seconds INT,
 description TEXT,
