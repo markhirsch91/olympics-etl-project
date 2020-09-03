@@ -1,13 +1,11 @@
 # olympics-etl-project
 
-
-- Clean both datasets
-    - Concatenate First/Last name in Olympic Medal API
-- Join both datasets on athlete name
-- This will give us a list of athletes and the medals they've won
-- Use PostgreSQL for final database
-- Athletes Table & Medals Table 
-
+- Convert CSV's to Pandas Databases
+- Clean all three datasets
+    - Remove any unecessary columns
+    - Ensure all letter cases consistent
+- Filter "120 years of Olympic history: athletes and results" dataset to find only figure skaters in the winter olympics
+- In the UFO table, Rename 'state/province' column to 'state_province', to avoid errors in SQL
 
 
 ## Team Members
@@ -18,9 +16,18 @@
 
 ## Data Sets 
 
-### Olympics API · Apiary
-https://olympicsapi.docs.apiary.io/#reference/olympics/athlete/retrieve-athlete
-
 
 ### 120 years of Olympic history: athletes and results
 https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv
+
+
+### Olympic Sports and Medals, 1896-2014
+https://www.kaggle.com/the-guardian/olympic-games
+
+
+### UFO Sightings around the world
+https://www.kaggle.com/camnugent/ufo-sightings-around-the-world
+
+
+
+
