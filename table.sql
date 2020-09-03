@@ -35,9 +35,9 @@ City TEXT,
 state_province TEXT,
 Country TEXT,
 UFO_shape TEXT,
-length_of_encounter_seconds INT,
+length_of_encounter_seconds TEXT,
 description TEXT,
 date_documented TEXT,
-latitude INT,
-longitude INT
+latitude TEXT,
+longitude TEXT
 );
