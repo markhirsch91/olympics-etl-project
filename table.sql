@@ -30,7 +30,7 @@ Medal TEXT
 
 
 CREATE TABLE UFO_sightings (
-Date_time Datetime,
+Date_time timestamp,
 City TEXT,
 state_province TEXT,
 Country TEXT,
