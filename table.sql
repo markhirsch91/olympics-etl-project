@@ -1,5 +1,5 @@
 CREATE TABLE Winter_winners (
-ID INT PRIMARY KEY,
+ID INT ,
 Name TEXT,
 Sex TEXT,
 Age TEXT,
@@ -17,7 +17,6 @@ Medal TEXT
 );
 
 CREATE TABLE Old_sports (
-ID IN PRIMARY KEY,
 Year INT,
 City TEXT,
 Sport TEXT,
@@ -31,7 +30,6 @@ Medal TEXT
 
 
 CREATE TABLE UFO_sightings (
-ID IN PRIMARY KEY,
 Date_time Datetime,
 City TEXT,
 state/province TEXT,
